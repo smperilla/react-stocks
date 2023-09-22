@@ -16,7 +16,8 @@ const Stocks = (props) => {
             const{name, symbol} = stock;
         return(
            <Link to = {`/stock/${symbol}`}>
-            <h2>{name}</h2>
+            <h2>{name}</h2> 
+            <h3>{symbol}</h3>
            </Link> 
         )       
         })}
